@@ -1,0 +1,23 @@
+
+.box{
+  /* height: 100%; */
+  min-width: 400px ;
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #01569b, #ea00ff);
+  border-radius: 20px;
+  position: relative; /* Add this to establish a stacking context */
+  z-index: 1;
+
+  
+}
+
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
